@@ -12,15 +12,7 @@
     />
 
     <link rel="stylesheet" href="https://unpkg.com/tailwindcss/dist/tailwind.min.css" />
-
-    <style>
-      .peerview-body {
-        background-color: #351315;
-        color: #e5d8cc;
-        font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande',
-          sans-serif;
-      }
-    </style>
+    <link rel="stylesheet" href="css/styles.css">
   </head>
 
   <body class="peerview-body leading-normal tracking-normal text-indigo-400 m-6 bg-cover bg-fixed">
@@ -40,7 +32,7 @@
         </div>
 
         <div class="mx-auto md:pt-16">
-          <div class="grid w-full justify-center justify-items-center pb-24 lg:pb-0 grid-rows-2">
+          <div class="grid w-full justify-center justify-items-center pb-8 lg:pb-0 grid-rows-2">
             <div class="my-4 text-xl md:text-2xl opacity-50 font-bold leading-tight text-center">Coming Soon</div>
             <img
               alt="App Store"
@@ -48,6 +40,44 @@
               class="h-12 transform hover:scale-125 duration-300 ease-in-out"
             />
           </div>
+        </div>
+
+        <p class="container leading-normal font-bold opacity-50 text-xl md:text-2xl mb-6 text-center md:text-left">
+          Meet The Team
+        </p>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+
+          <div class="flex flex-col items-center justify-center peerview-beige-bg-opacity-50 p-4 shadow rounded-lg">
+            <div class="inline-flex shadow-lg rounded-full overflow-hidden h-40 w-40">
+              <img src="img/bernhard-sterchi.jpg"
+                   alt="Bernhard Sterchi"
+                   class="h-full w-full">
+            </div>
+
+            <h2 class="mt-4 font-bold text-2xl">Bernhard Sterchi</h2>
+            <h6 class="mb-4 text-xl font-medium opacity-50">Founder</h6>
+
+            <p class="text-xl text-center mt-3">
+              Bernhard is the creator behind all Peerview content. A thought sorter, brainwave oscillator, Möglichkeitsraumpfleger, he is Managing Partner of Palladio, Basel. An expert in complexity oriented leadership, he trains, coaches and consults leaders and organisations to strive in an unpredictable world.
+            </p>
+          </div>
+
+          <div class="flex flex-col items-center justify-center peerview-beige-bg-opacity-50 p-4 shadow rounded-lg">
+            <div class="inline-flex shadow-lg rounded-full overflow-hidden h-40 w-40">
+              <img src="img/rahel-luethy.jpg"
+                   alt="Rahel Lüthy"
+                   class="h-full w-full">
+            </div>
+
+            <h2 class="mt-4 font-bold text-2xl">Rahel Lüthy</h2>
+            <h6 class="mb-4 text-xl font-medium opacity-50">Co-Founder</h6>
+
+            <p class="text-xl text-center mt-3">
+              Rahel is the developer behind Peerview. A theoretical biologist by education, her eternal curiosity led from evolutionary dynamics to software development, with a particular focus on data visualization and scientific decision support systems. Rahel is currently a research associate and lecturer at FHNW.
+            </p>
+          </div>
+
         </div>
 
         <div class="w-full pt-16 pb-6 text-sm text-center md:text-left">&copy; 2021 Palladio Trusted Advisers AG</div>
