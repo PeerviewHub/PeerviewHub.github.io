@@ -13,6 +13,11 @@
     background-color: rgb(229, 216, 204);
 }
 
+.peerview-handwriting {
+    font-family: 'Amatic SC', cursive;
+    color: #fc992b;
+}
+
 .peerview-button {
     font-family: 'Amatic SC', cursive;
     color: #fc992b;
