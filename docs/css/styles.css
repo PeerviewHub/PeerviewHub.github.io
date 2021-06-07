@@ -3,6 +3,10 @@
     color: #e5d8cc;
     font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande',
     sans-serif;
+    background-image: url("../img/sphere.png");
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: top right;
 }
 
 .peerview-beige-bg-opacity-50 {
