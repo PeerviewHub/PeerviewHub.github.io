@@ -17,6 +17,14 @@
     background-color: rgb(229, 216, 204);
 }
 
+.peerview-beige-border {
+    border: solid 5px rgb(229, 216, 204);
+}
+
+.peerview-orange-bg {
+    background-color: #fc992b;
+}
+
 .peerview-handwriting {
     font-family: 'Amatic SC', cursive;
     color: #fc992b;
