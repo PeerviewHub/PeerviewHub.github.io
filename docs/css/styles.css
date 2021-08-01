@@ -30,6 +30,10 @@
     color: #fc992b;
 }
 
+.peerview-badges-container {
+    grid-template-rows: auto 1fr;
+}
+
 .peerview-button {
     font-family: 'Amatic SC', cursive;
     color: #fc992b;
