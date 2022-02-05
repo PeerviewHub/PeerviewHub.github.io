@@ -9,8 +9,8 @@
     background-position: top right;
 }
 
-.peerview-beige-bg-opacity-50 {
-    background-color: rgba(229, 216, 204, 0.5);
+.peerview-beige-bg-semi-transparent {
+    background-color: rgba(142, 117, 113, 0.8);
 }
 
 .peerview-beige-bg {
@@ -42,4 +42,22 @@
 
 .peerview-button:hover {
     background-color: rgba(252, 153, 43, 0.1);
+}
+
+.peerview-icon {
+    place-self: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.peerview-icon-linkedin {
+    background-image: url('../img/linkedin.svg');
+}
+
+.peerview-icon-email {
+    background-image: url('../img/email.svg');
+}
+
+.peerview-icon-github {
+    background-image: url('../img/github.svg');
 }
